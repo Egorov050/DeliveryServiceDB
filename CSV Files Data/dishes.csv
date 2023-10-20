@@ -1,0 +1,100 @@
+dish_id;dish_name;dish_price;dish_description;dish_weight;dish_pic;dish_cat_id;sale_id
+1;sushi;15;rice, nori, fish, avocado, soy sauce;200;;1;1
+2;tacos;5;tortilla, beef, lettuce, cheese, salsa;150;;2;2
+3;steak;20;beef, salt, pepper, garlic, butter;300;;3;3
+4;soup;10;broth, vegetables, meat, herbs, spices;250;;4;4
+5;sandwiches;25;bread, meat, cheese, lettuce, tomato;200;;5;5
+6;noodles;30;noodles, vegetables, soy sauce, sesame oil;250;;6;6
+7;salad;5;lettuce, tomatoes, cucumbers, dressing, croutons;150;;7;7
+8;dim-sum;15;dumplings, buns, rice, soy sauce;180;;8;8
+9;pancakes;25;flour, eggs, milk, butter, syrup;200;;9;9
+10;burritos;10;tortilla, rice, beans, meat, salsa;300;;10;10
+11;curry;20;meat, vegetables, curry sauce, rice;400;;11;11
+12;hot-dogs;30;sausage, bun, ketchup, mustard, onions;150;;12;12
+13;seafood;5;fish, shrimp, mussels, lemon, butter;250;;13;13
+14;ramen;15;noodles, broth, pork, green onions, seaweed;350;;14;14
+15;barbecue;25;meat, barbecue sauce, charcoal, smoke;400;;15;15
+16;fajitas;10;chicken, bell peppers, onions, tortillas;200;;16;16
+17;wraps;30;tortilla, chicken, lettuce, tomato, dressing;250;;17;17
+18;kebabs;20;skewers, meat, vegetables, marinade;300;;18;18
+19;quiche;5;pie crust, eggs, cream, cheese, filling;350;;19;19
+20;gyros;15;pita bread, lamb, tzatziki, tomatoes, onions;250;;20;20
+21;smoothies;25;fruits, yogurt, ice, honey, juice;300;;21;21
+22;casseroles;10;meat, vegetables, cheese, pasta, sauce;400;;22;22
+23;tapas;20;various small dishes, olives, cheese, bread;300;;23;23
+24;crepes;30;flour, eggs, milk, sugar, fillings;200;;24;24
+25;scones;5;flour, butter, sugar, milk, baking powder;250;;25;25
+26;caviar;15;fish eggs, crackers, toast, sour cream;50;;26;26
+27;falafel;25;chickpeas, herbs, spices, tahini sauce;200;;27;27
+28;tiramisu;10;ladyfingers, coffee, mascarpone, cocoa;150;;28;28
+29;sashimi;20;raw fish, soy sauce, wasabi, pickled ginger;250;;29;29
+30;bagels;30;flour, water, yeast, salt, toppings;200;;30;30
+31;lobster;5;lobster, butter, lemon, garlic, herbs;400;;31;31
+32;enchiladas;15;tortillas, meat, cheese, sauce, beans;300;;32;32
+33;lasagna;25;pasta, ricotta, meat sauce, cheese;350;;33;33
+34;macarons;10;almond flour, egg whites, sugar, filling;100;;34;34
+35;frittata;20;eggs, vegetables, cheese, herbs, spices;150;;35;35
+36;poutine;30;fries, cheese curds, gravy, toppings;250;;36;36
+37;risotto;5;rice, broth, wine, Parmesan, herbs;200;;37;37
+38;shrimp-scampi;15;shrimp, garlic, butter, lemon, pasta;300;;38;38
+39;cobbler;25;fruit, sugar, flour, butter, baking powder;150;;39;39
+40;dumplings;10;dough, meat, vegetables, broth, dipping sauce;200;;40;40
+41;guacamole;20;avocados, tomatoes, onions, lime, salt;400;;41;41
+42;bruschetta;30;baguette, tomatoes, garlic, basil, olive oil;300;;42;42
+43;croissants;5;flour, butter, yeast, milk, sugar;150;;43;43
+44;pho;15;rice noodles, broth, beef, herbs, bean sprouts;350;;44;44
+45;hummus;25;chickpeas, tahini, olive oil, garlic, lemon;200;;45;45
+46;gumbo;10;meat, vegetables, roux, broth, spices;200;;46;46
+47;sorbet;20;fruit, sugar, water, lemon juice;350;;47;47
+48;paella;30;rice, saffron, seafood, chicken, vegetables;200;;48;48
+49;truffles;5;chocolate, cream, butter, cocoa powder;150;;49;49
+50;lobster-bisque;15;lobster, broth, cream, sherry;300;;50;50
+51;ravioli;25;pasta, ricotta, spinach, marinara, cheese;150;;51;51
+52;ceviche;10;seafood, citrus juice, onions, cilantro;200;;52;52
+53;pad-thai;20;rice noodles, shrimp, tofu, peanuts, lime;150;;53;53
+54;empanadas;30;dough, meat, vegetables, spices, sauce;200;;54;54
+55;tempura;5;beef, onions, peppers, paprika, broth;150;;55;55
+56;goulash;15;eggs, sugar, butter, flavoring, sauce;150;;56;56
+57;souffle;25;rice paper, shrimp, vermicelli, vegetables;150;;57;57
+58;spring-rolls;10;kale, olive oil, salt, spices;200;;58;58
+59;kale-chips;20;eggplant, tahini, garlic, lemon, olive oil;250;;59;59
+60;baba-ganoush;30;meat, vegetables, soy sauce, ginger, garlic;200;;60;60
+61;stir-fry;5;dough, potatoes, cheese, onions, sour cream;300;;61;61
+62;pierogi;15;seafood or corn, potatoes, onions, cream;200;;62;62
+63;chowder;25;pastry shells, ricotta, sugar, chocolate chips;150;;63;63
+64;cannoli;10;meat, bell peppers, onions, tortillas;300;;64;64
+65;fajita;20;basil, pine nuts, garlic, Parmesan, olive oil;200;;65;65
+66;pesto;30;snails, garlic, butter, parsley, wine;200;;66;66
+67;escargot;5;mozzarella, breadcrumbs, egg, marinara;250;;67;67
+68;mozzarella-sticks;15;raw meat or fish, onions, capers, egg yolk;150;;68;68
+69;tartare;25;glutinous rice, sugar, water, filling;200;;69;69
+70;mochi;10;rice, sausage, chicken, shrimp, vegetables;150;;70;70
+71;jambalaya;20;eggplant, zucchini, tomatoes, onions, herbs;150;;71;71
+72;ratatouille;30;cheese, wine, garlic, bread, vegetables;250;;72;72
+73;fondue;5;apples, caramel, nuts, chocolate;150;;73;73
+74;caramel-apples;15;raw oysters, lemon, mignonette sauce;200;;74;74
+75;oysters;25;veal, breadcrumbs, marinara, cheese;150;;75;75
+76;veal-parmigiana;10;tomatoes, mozzarella, basil, balsamic;200;;76;76
+77;caprese-salad;20;tomatoes, cucumbers, peppers, onions, garlic;250;;77;77
+78;gazpacho;30;cream, sugar, gelatin, vanilla, berries;150;;78;78
+79;panna-cotta;5;squid, flour, seasoning, marinara sauce;150;;79;79
+80;calamari;15;dough, apples, sugar, cinnamon, nuts;200;;80;80
+81;strudel;25;dough, apples, sugar, cinnamon, nuts;150;;81;81
+82;poke-bowls;10;rice, raw fish, soy sauce, vegetables, toppings;300;;82;82
+83;meatballs;20;ground meat, breadcrumbs, eggs, garlic, herbs;200;;83;83
+84;samosas;30;pastry, potatoes, peas, spices, meat or vegetables;200;;84;84
+85;ceasar-salad;5;romaine lettuce, croutons, Parmesan, Caesar dressing;200;;85;85
+86;biryani;15;rice, meat, biryani masala, yogurt, fried onions;250;;86;86
+87;pierogies;25;dough, potatoes, cheese, onions, sour cream;150;;87;87
+88;tostadas;10;tortillas, beans, meat, lettuce, salsa;200;;88;88
+89;sushi-burritos;20;nori, rice, fish, avocado, soy sauce;200;;89;89
+90;chimichangas;30;tortillas, meat, beans, cheese, sauce;300;;90;90
+91;beignets;5;dough, powdered sugar, frying oil;300;;91;91
+92;couscous;15;couscous, vegetables, herbs, spices, olive oil;200;;92;92
+93;spanakopita;25;phyllo dough, spinach, feta cheese, onions;300;;93;93
+94;ahi-poke;10;raw ahi tuna, soy sauce, sesame oil, toppings;300;;94;94
+95;tandoori;20;marinated meat, yogurt, spices, tandoor oven;200;;95;95
+96;baguette;30;flour, water, yeast, salt, toppings;150;;96;96
+97;lobster-rolls;15;lobster, mayonnaise, celery, lemon, roll;250;;97;97
+98;bratwurst;5;sausages, buns, mustard, sauerkraut, onions;300;;98;98
+99;baba-ganoush;20;eggplant, tahini, garlic, lemon, olive oil;200;;99;99

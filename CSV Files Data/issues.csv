@@ -1,0 +1,100 @@
+issue_id;issue_name;issue_description
+1;Late delivery;Delayed delivery of food items.
+2;Cold food;Food delivered is cold and not at the desired temperature.
+3;Incorrect order;Received an order different from what was requested.
+4;Rude delivery driver;Encountered a rude or unprofessional behavior from the delivery driver.
+5;Spilled drinks;Drinks were spilled or leaked during delivery.
+6;Missing items;Some items from the order were missing upon delivery.
+7;Incorrect food temperature;Food arrived with an incorrect temperature, either too hot or too cold.
+8;Unsealed packaging;Packaging was not properly sealed, risking contamination of the food.
+9;Poorly packaged food;Food was poorly packaged, leading to spillage or damage.
+10;Incomplete order;Received an incomplete order with missing items.
+11;Smashed or damaged food;Food items arrived smashed or damaged during delivery.
+12;Wrong food items;Received the wrong items in the order.
+13;Inattentive delivery driver;Delivery driver seemed inattentive or not focused on the delivery.
+14;Incorrect address;Delivery was made to the wrong address.
+15;Overly salty food;Food delivered was excessively salty.
+16;Overcooked food;Food items were overcooked and had an undesirable texture.
+17;Undercooked food;Food items were undercooked and not safe to consume.
+18;Unappetizing presentation;Food was presented in an unappetizing manner.
+19;Stale food;Received stale or expired food items.
+20;Unpleasant odor from the food;Food had an unpleasant odor upon delivery.
+21;Mismatched food preferences;Received food items that did not match specified preferences.
+22;Allergic reactions due to incorrect ingredients;Experienced allergic reactions due to incorrect ingredients in the food.
+23;Inaccurate estimated delivery time;Received the order later than the estimated delivery time.
+24;Difficulties contacting the delivery driver;Encountered difficulties in contacting the delivery driver.
+25;Missing utensils or napkins;Utensils or napkins were missing from the delivered order.
+26;Wrong drink selection;Received the wrong selection of drinks in the order.
+27;Misleading menu descriptions;Menu descriptions were misleading, leading to incorrect expectations.
+28;Restaurant not honoring promotions or discounts;The restaurant did not honor specified promotions or discounts.
+29;Overly greasy food;Food items were excessively greasy.
+30;Overly spicy food;Food items were excessively spicy, beyond the specified preference.
+31;Incorrect portion sizes;Received incorrect portion sizes of food items.
+32;Poor quality ingredients;Food items were prepared with poor-quality ingredients.
+33;Incorrect allergen information;Received incorrect information regarding allergens in the food.
+34;Unannounced menu changes;Menu items were changed without prior announcement.
+35;Overpriced items;Received items that were overpriced or not in line with the menu prices.
+36;Incorrect billing;Received an incorrect bill or charges for the order.
+37;Confusing menu layout;Encountered difficulties in navigating a confusing menu layout.
+38;Menu items not available;Selected menu items were not available for order.
+39;Delivery driver not following safety guidelines;Delivery driver did not follow proper safety guidelines during delivery.
+40;Limited vegetarian or vegan options;Limited availability of vegetarian or vegan options on the menu.
+41;Restaurant not accepting specific payment methods;The restaurant did not accept specific payment methods as indicated.
+42;Poor customer service response;Received a poor or unsatisfactory response from customer service.
+43;Unpleasant taste of the food;Food had an unpleasant taste that did not meet expectations.
+44;Incorrect food labeling;Received food items with incorrect or misleading labeling.
+45;Inadequate food packaging for spill-prone items;Food packaging was inadequate, leading to spill-prone items.
+46;Incorrect food temperature during transit;Food temperature was not maintained correctly during transit.
+47;Difficulty tracking the delivery;Encountered difficulty in tracking the delivery status.
+48;Limited customization options for orders;Limited options for customizing orders according to preferences.
+49;Difficulty navigating the ordering app or website;Encountered difficulty in navigating the ordering app or website.
+50;Incorrect dietary information;Received food items with incorrect dietary information.
+51;Unpleasant texture of the food;Difficulty providing special instructions for orders.
+52;Incorrectly cooked meat preferences;Limited international cuisine options.
+53;Inability to modify or cancel orders;Limited healthy food choices.
+54;Inadequate preparation for food allergies;Misleading food photos on the app or website.
+55;Limited international cuisine options;Difficulty accessing customer support.
+56;Limited healthy food choices;Delivery driver not adhering to hygiene standards.
+57;Misleading food photos on the app or website;Unexplained delays in order processing.
+58;Difficulty accessing customer support;Difficulty redeeming loyalty points or rewards.
+59;Delivery driver not adhering to hygiene standards;Limited availability during peak hours.
+60;Unexplained delays in order processing;Overcrowded or slow-loading ordering platforms.
+61;Difficulty redeeming loyalty points or rewards;Incorrect delivery charges.
+62;Limited availability during peak hours;Limited beverage options.
+63;Overcrowded or slow-loading ordering platforms;Difficulty providing feedback on the order.
+64;Incorrect delivery charges;Limited options for special dietary needs.
+65;Limited beverage options;Difficulty understanding menu descriptions.
+66;Difficulty providing special instructions for orders;Restaurant not accommodating dietary restrictions.
+67;Limited options for special dietary needs;Limited dessert options.
+68;Difficulty understanding menu descriptions;Difficulty accessing nutritional information.
+69;Restaurant not accommodating dietary restrictions;Limited gluten-free options.
+70;Limited dessert options;Difficulty receiving refunds for unsatisfactory orders.
+71;Difficulty accessing nutritional information;Limited organic or locally sourced options.
+72;Limited gluten-free options;Difficulty finding kid-friendly options.
+73;Difficulty providing feedback on the order;Limited seafood options.
+74;Limited low-calorie options;Difficulty accessing contactless payment options.
+75;Difficulty resolving payment issues;Limited options for large group orders.
+76;Limited low-carb options;Difficulty accessing order history.
+77;Difficulty receiving refunds for unsatisfactory orders;Limited options for solo diners.
+78;Limited organic or locally sourced options;Difficulty redeeming gift cards.
+79;Difficulty finding kid-friendly options;Limited options for breakfast delivery.
+80;Limited seafood options;Difficulty navigating through complex menus.
+81;Difficulty accessing contactless payment options;Limited options for late-night delivery.
+82;Limited options for large group orders;Difficulty accessing promotions or discounts.
+83;Difficulty accessing order history;Limited options for quick or express delivery.
+84;Limited options for solo diners;Difficulty understanding menu pricing.
+85;Difficulty redeeming gift cards;Limited options for contactless delivery.
+86;Limited options for breakfast delivery;Difficulty accessing nutritional information.
+87;Difficulty navigating through complex menus;Limited options for contactless payment.
+88;Limited options for late-night delivery;Difficulty accessing customer reviews.
+89;Difficulty accessing promotions or discounts;Limited options for order tracking.
+90;Limited options for quick or express delivery;Difficulty accessing restaurant ratings.
+91;Difficulty understanding menu pricing;Limited options for customizing spice levels.
+92;Limited options for contactless delivery;Difficulty accessing allergy information.
+93;Difficulty accessing nutritional information;Limited options for order tracking.
+94;Limited options for contactless payment;Difficulty accessing restaurant ratings.
+95;Difficulty accessing customer reviews;Limited options for customizing spice levels.
+96;Limited options for order tracking;Difficulty accessing allergy information.
+97;Difficulty accessing restaurant ratings;Difficulty accessing nutritional information.
+98;Limited options for customizing spice levels;Limited options for contactless payment.
+99;Difficulty accessing allergy information;Encountered difficulty in providing special instructions for orders.
