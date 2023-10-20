@@ -1,16 +1,10 @@
 /* View for use as a data source for reporting in Excel 
 By combining these tables into a view, we can create a comprehensive dataset that allows us to perform various types of reporting and visualization, among them
-
 Sales Analysis: Calculate total sales, analyze sales trends over time, and compare the popularity of different dishes or categories.
-
-Client Insights: Understand client preferences, ordering patterns, and delivery locations.
-
+Client Insights:Understand client preferences, ordering patterns, and delivery locations.
 Courier Performance: Analyze the performance of couriers, including delivery times and the number of orders completed.
-
 Menu Optimization: Identify the most and least popular dishes to optimize the menu.
-
 Client Card Usage: Analyze the usage of client cards and identify any trends.
-
 Restaurant Performance: Assess the performance of different restaurants and their contributions to overall sales.*/
 
 CREATE VIEW editable_client_phone_view AS
