@@ -1,0 +1,4 @@
+Vladimir Egorov: Design and creation of DB, Trigger, Functions, report , insert data, leader of the DB
+Bashirov Maxim: Design and creation of DB, Select queries, Views, report , insert data, leader of the DB
+Alexander Kryuchatov: Data generation 
+Makarov Yaroslav : Data generation 
