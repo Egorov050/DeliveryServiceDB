@@ -1,4 +1,4 @@
-
+/*Функция позволяет курьеру принять заказ*/
 CREATE OR REPLACE FUNCTION take_order(i_delivery_id INT, i_courier_id INT) RETURNS VOID AS $$
 BEGIN 
     IF EXISTS (SELECT delivery_id FROM delivery WHERE delivery_id = i_delivery_id) THEN 
@@ -10,6 +10,7 @@ BEGIN
 END;
 $$ LANGUAGE plpgsql;
 
+/*Функция позволяет курьеру начать доставку*/
 CREATE OR REPLACE FUNCTION start_delivery (i_delivery_id INT, i_courier_id INT) RETURNS VOID AS $$
 BEGIN 
     IF EXISTS (SELECT delivery_id FROM delivery WHERE delivery_id = i_delivery_id) THEN 
@@ -21,6 +22,7 @@ BEGIN
 END;
 $$ LANGUAGE plpgsql;
 
+/*Функция позволяет курьеру закончить доставку*/
 CREATE OR REPLACE FUNCTION end_delivery (i_delivery_id INT, i_courier_id INT) RETURNS VOID AS $$
 DECLARE
 timedelivery INT;
@@ -40,6 +42,7 @@ END IF;
 END;
 $$ LANGUAGE plpgsql;
 
+/*Функция позволяет раасчитать время доставки, функция связана с тригером*/
 CREATE OR REPLACE FUNCTION update_delivery_time(i_courier_id INT) RETURNS VOID AS $$
 DECLARE
     timedelivery BIGINT;
@@ -56,6 +59,8 @@ BEGIN
 END;
 $$ LANGUAGE plpgsql;
 
+
+/*Функция для тригера*/
 CREATE OR REPLACE FUNCTION update_courier_delivery_time() RETURNS TRIGGER AS $$
 BEGIN
     IF NEW.delivery_time IS NOT NULL THEN
