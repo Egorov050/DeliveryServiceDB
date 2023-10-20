@@ -1,3 +1,15 @@
+
+/*Эта функция создает юзера, который делает запрос на добавление ресторана. Делается первой*/
+create or replace function add_user1(
+	user_id1 int
+)  RETURNS VOID AS $$
+begin
+	insert into request_registration_rest(clientt_id) values (user_id1);
+end;
+$$ LANGUAGE plpgsql;
+
+
+/*Эта функция добаляет информацию о ресторане*/
 create or replace function add_rest_info1 (
    i_id int,
    i_info_rest_raiting int,
@@ -27,6 +39,7 @@ create or replace function add_rest_info1 (
 END;
 $$ LANGUAGE plpgsql;
 
+/*Эта функция добаляет адрес ресторана*/
 create or replace function add_rest_address(
 	i_id int,
 	i_address char,
@@ -50,7 +63,7 @@ begin
 END;
 $$ LANGUAGE plpgsql;
 
-
+/*Эта функция добаляет меню ресторана*/
 CREATE OR REPLACE FUNCTION add_menu3 (
    i_menu_description char,
    i_id int
@@ -73,6 +86,7 @@ BEGIN
 END;
 $$ LANGUAGE plpgsql;
 
+/*Эта финальная функция которая добовляет ресторан. Она должна заолняться в самом конце*/
 CREATE OR REPLACE FUNCTION add_rest(
  i_id int,
  rest_name char
@@ -106,27 +120,7 @@ CREATE OR REPLACE FUNCTION add_rest(
 END;
 $$ LANGUAGE plpgsql;
 
-SELECT add_rest(6, 'Vova');
-
-/*jurjfurjfujrufjurjfurjfujrufjrujfeygisygfygryfgryfgyrgfygryfgyrgfyrgyfgrygfyrgyfgrygfdfjndjfdjfndjnfjnyrgyfgryfgyrgfygrygfyrgf*/
-  
-
-create or replace function add_user1(
-	user_id1 int
-)  RETURNS VOID AS $$
-begin
-	insert into request_registration_rest(clientt_id) values (user_id1);
-end;
-$$ LANGUAGE plpgsql;
 
 
-create table request_registration_rest(
-	clientt_id int primary key,
-	statuse char,
-	menu_id int,
-	restaurant_id int,
-	restaurant_info int,
-	restaurant_address int,
-	constraint add_address foreign key (restaurant_address) REFERENCES rest_address(rest_address_id),
-	constraint add_menu foreign key (menu_id) REFERENCES menu(menu_id),
-	constraint add_info foreign key (restaurant_info) REFERENCES info_rest(info_rest_id))
+
+
