@@ -16,6 +16,7 @@ $$ LANGUAGE plpgsql;
 
 
 /*Эта функция добаляет информацию о ресторане*/
+create or replace function add_rest_info1 (
    i_id int,
    i_info_rest_raiting int,
    i_info_rest_cuisine char, 
