@@ -4,3 +4,21 @@ Our database users are:
   - people who want to oder the food online form restaurants of different classes
   - people who want to add there restaurants to our service
   - Our employees, who will solve the problem request (support team)
+
+Our database allowes to have functions:
+  - add restaurant (done)
+  - add menu (done)
+  - add restaurant menu (done)
+  - add reastaurant address (done)
+  - create an order (done)
+  - for the courier he can take the order (done)
+  - for the courier he can start the order (done)
+  - for the courier he can finish order (done)
+  - for the courier the salary can be calculated automaticly (thanks trigger) (done)
+  - for the courier he can register the account 
+  - for the courier he can contect with the client
+  - for the courier he can withdraw salary
+  - add favourite dishes/menu/restaurant
+  - add user
+  - cancel the delivery
+Our 
