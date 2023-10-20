@@ -1,3 +1,4 @@
+/*Функция позволяет создать заказ(связана с delivery)*/
 CREATE OR REPLACE FUNCTION make_order1(i_dish_quantity INT, i_user_id INT, i_dish_id INT, i_method_id INT, i_restaurant_id INT, i_app_time INT) RETURNS VOID AS $$
 DECLARE
     order_id INT;
