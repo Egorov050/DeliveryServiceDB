@@ -1,0 +1,6 @@
+DataBase name: 2023TeamProjectVOVAMAKSIMSASHA
+
+Our database users are:
+  - people who want to oder the food online form restaurants of different classes
+  - people who want to add there restaurants to our service
+  - Our employees, who will solve the problem request (support team)
