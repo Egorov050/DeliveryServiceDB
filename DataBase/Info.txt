@@ -21,4 +21,8 @@ Our database allowes to have functions:
   - add favourite dishes/menu/restaurant
   - add user
   - cancel the delivery
-Our 
+
+The database includes some views. The desription is above the code of all views
+
+
+
