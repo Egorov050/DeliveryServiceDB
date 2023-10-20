@@ -1,3 +1,4 @@
+/*<функция позволяет отправлять запросы на решение ошибок. Сотрудник службы поддержки выбирается рандомно >*/
 CREATE OR REPLACE FUNCTION insert_problem_request(
     p_issue_id INT,
     p_user_id INT
