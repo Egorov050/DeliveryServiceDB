@@ -16,7 +16,6 @@ $$ LANGUAGE plpgsql;
 
 
 /*Эта функция добаляет информацию о ресторане*/
-create or replace function add_rest_info1 (
    i_id int,
    i_info_rest_raiting int,
    i_info_rest_cuisine char, 
@@ -31,11 +30,11 @@ create or replace function add_rest_info1 (
 	  i_info_rest_id := floor(random() * 900000) + 100000;
 	 IF EXISTS (SELECT clientt_id FROM request_registration_rest WHERE clientt_id = i_id) then
 	 	if exists (select info_rest_id from info_rest where info_rest_id=i_info_rest_id) then 
-	 		update info_rest set info_rest_raiting =  i_info_rest_raiting , info_rest_cuisine = i_info_rest_cuisine,
+	 		update info_rest set info_rest_rating =  i_info_rest_raiting , info_rest_cuisine = i_info_rest_cuisine,
 	 		info_rest_work_hours = i_info_rest_work_hours ,rest_itn=i_rest_itn ,rest_legal_address=i_rest_legal_address, 
 	 		rest_bank_account = i_rest_bank_account ,mean_delivery_time=i_mean_delivery_time where restaurant_info = i_info_rest_id;
 	 	else
-	 		  INSERT INTO info_rest  (info_rest_id, info_rest_raiting, info_rest_cuisine, info_rest_work_hours, rest_itn, rest_legal_address, rest_bank_account, mean_delivery_time)
+	 		  INSERT INTO info_rest  (info_rest_id, info_rest_rating, info_rest_cuisine, info_rest_work_hours, rest_itn, rest_legal_address, rest_bank_account, mean_delivery_time)
    				VALUES (i_info_rest_id, i_info_rest_raiting, i_info_rest_cuisine, i_info_rest_work_hours, i_rest_itn, i_rest_legal_address, i_rest_bank_account, i_mean_delivery_time);
    		end if;
    		update request_registration_rest set restaurant_info = i_info_rest_id where clientt_id = i_id;
